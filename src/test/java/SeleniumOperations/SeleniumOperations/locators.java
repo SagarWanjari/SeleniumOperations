@@ -54,4 +54,29 @@ public class locators {
 	final static By password=By.xpath("//input[@name='passwd']");
 	final static By signIn=By.xpath("//button[@id='SubmitLogin']");
 	final static By forgotPass=By.xpath("//a[contains(text(),'Forgot your password?')]");
+
+	//ScrollBar Demo
+	final static By scollbarLink=By.xpath("//a[contains(text(),'Scrollbar Demo')]");
+	final static By textToFind=By.xpath("//h4/a[contains(text(),'VBScript')]");
+
+	//CookiesDemo
+	final static By cookiesDemo=By.xpath("//a[contains(text(),'Cookie Handling Demo')]");
+	final static By username=By.xpath("//input[@name='username']");
+	final static By passwd=By.xpath("//input[@name='password']");
+	final static By submitButton=By.xpath("//button[@name='submit']");
+	
+	//Drag and Drop
+	final static By lnkDragnDrop=By.xpath("//a[contains(text(),'Drag and Drop Action')]");
+	final static By dragfirstAmt5000=By.xpath("//div[@id='products']/div/ul/li[2]/a");
+	final static By dragfirstAmt2_5000=By.xpath("//div[@id='products']/div/ul/li[4]/a");
+	final static By dragbank=By.xpath("//div[@id='products']/div/ul/li[5]/a");
+	final static By dragsales=By.xpath("//div[@id='products']/div/ul/li[6]/a");
+	final static By placebank=By.xpath("//ol[@id='bank']/li");
+	final static By placeamt1=By.xpath("//ol[@id='amt7']/li");
+	final static By placeloan=By.xpath("//ol[@id='loan']/li");
+	final static By placeamt2=By.xpath("//ol[@id='amt8']/li");
+	
+	//DatePicker Demo
+	final static By datePicker=By.xpath("//a[contains(text(),'Selenium DatePicker Demo')]");
+	final static By submitDate=By.xpath("//input[@type='submit']");
 }

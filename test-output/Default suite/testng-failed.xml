@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumOperations.SeleniumOperations.Login">
+      <class name="SeleniumOperations.SeleniumOperations.DatePicker">
         <methods>
+          <include name="datePicker"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="login"/>
         </methods>
-      </class> <!-- SeleniumOperations.SeleniumOperations.Login -->
+      </class> <!-- SeleniumOperations.SeleniumOperations.DatePicker -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30686" started-at="2021-09-19T22:51:00 IST" finished-at="2021-09-19T22:51:31 IST">
+  <suite name="Default suite" duration-ms="36031" started-at="2021-09-21T00:18:28 IST" finished-at="2021-09-21T00:19:04 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30686" started-at="2021-09-19T22:51:00 IST" finished-at="2021-09-19T22:51:31 IST">
-      <class name="SeleniumOperations.SeleniumOperations.Login">
-        <test-method status="PASS" signature="setup()[pri:0, instance:SeleniumOperations.SeleniumOperations.Login@27a5f880]" name="setup" is-config="true" duration-ms="21336" started-at="2021-09-19T22:51:00 IST" finished-at="2021-09-19T22:51:22 IST">
+    <test name="Default test" duration-ms="36031" started-at="2021-09-21T00:18:28 IST" finished-at="2021-09-21T00:19:04 IST">
+      <class name="SeleniumOperations.SeleniumOperations.DatePicker">
+        <test-method status="PASS" signature="setup()[pri:0, instance:SeleniumOperations.SeleniumOperations.DatePicker@27a5f880]" name="setup" is-config="true" duration-ms="19516" started-at="2021-09-21T00:18:28 IST" finished-at="2021-09-21T00:18:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:SeleniumOperations.SeleniumOperations.Login@27a5f880]" name="login" duration-ms="6333" started-at="2021-09-19T22:51:22 IST" finished-at="2021-09-19T22:51:28 IST">
+        <test-method status="PASS" signature="datePicker()[pri:0, instance:SeleniumOperations.SeleniumOperations.DatePicker@27a5f880]" name="datePicker" duration-ms="13960" started-at="2021-09-21T00:18:47 IST" finished-at="2021-09-21T00:19:01 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumOperations.SeleniumOperations.Login@27a5f880]" name="tearDown" is-config="true" duration-ms="2917" started-at="2021-09-19T22:51:28 IST" finished-at="2021-09-19T22:51:31 IST">
+        </test-method> <!-- datePicker -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumOperations.SeleniumOperations.DatePicker@27a5f880]" name="tearDown" is-config="true" duration-ms="2450" started-at="2021-09-21T00:19:01 IST" finished-at="2021-09-21T00:19:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumOperations.SeleniumOperations.Login -->
+      </class> <!-- SeleniumOperations.SeleniumOperations.DatePicker -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
